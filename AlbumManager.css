@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.album-input-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.album-title {
+  flex-grow: 1;
+}
+
+.album-buttons {
+  display: flex;
+}
+
+.album-button {
+  padding: 2px 5px;
+  background-color: #4caf50;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.album-item-content {
+  display: flex;
+  align-items: center;
+}
+.album-buttons {
+  display: flex;
+  align-items: center;
+}
+.update-input {
+  margin-left: 10px;
+}
+.album-button {
+  padding: 2px 5px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.add-album-button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.album-manager {
+  position: relative;
+  background-color: #f9f9f9;
+}
+.update-label {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #e0e0e0;
+  padding: 5px 8px;
+  border-radius: 2px;
+}
